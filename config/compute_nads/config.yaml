@@ -1,0 +1,8 @@
+seed: 42
+nads:
+  shape: [1, 32, 32, 1]
+  sigma: 0
+
+# Support for config groups
+defaults:
+  - model: lenet

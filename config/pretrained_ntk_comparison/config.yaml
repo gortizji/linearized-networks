@@ -1,0 +1,16 @@
+seed: 42
+train:
+    epochs: 100
+    max_lr: 0.05
+    lr_schedule: "linear"
+    momentum: 0.9
+    batch_size: 128
+    optimizer: "sgd"
+num_log_steps: 100
+label_idx: 10
+linearize: False
+
+# Support for config groups
+defaults:
+    - model: lenet
+    - data: cifar10

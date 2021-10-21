@@ -1,0 +1,6 @@
+# @package _global_
+model:
+  model_name: "MLP"
+  model_config:
+    features: [100, 100, 1]
+    activation: "GeLU"

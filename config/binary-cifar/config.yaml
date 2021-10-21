@@ -1,0 +1,15 @@
+seed: 42
+train:
+    epochs: 100
+    max_lr: 0.05
+    lr_schedule: "linear"
+    momentum: 0.9
+    batch_size: 128
+    optimizer: "sgd"
+num_log_steps: 100
+num_train: 50000
+num_test: 10000
+
+# Support for config groups
+defaults:
+    - model: mlp

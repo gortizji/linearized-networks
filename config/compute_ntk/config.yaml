@@ -1,0 +1,9 @@
+seed: 42
+ntk:
+  nystrom_dims: null
+  num_eigvecs: 1000
+
+# Support for config groups
+defaults:
+  - model: lenet
+  - data: cifar10

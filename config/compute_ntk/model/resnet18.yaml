@@ -1,0 +1,8 @@
+# @package _global_
+model:
+  model_name: "ResNet18"
+  model_config:
+    num_classes: 1
+    activation: "ReLU"
+ntk:
+  batch_size: 20

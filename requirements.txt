@@ -1,0 +1,11 @@
+jax==0.2.22
+jaxlib==0.1.72+cuda111
+flax==0.3.5
+neural-tangents==0.3.8
+einops==0.3.2
+scikit-learn==1.0
+tensorflow==2.5.0
+tensorflow-datasets==4.4.0
+hydra-core==1.1.1
+
+--find-links https://storage.googleapis.com/jax-releases/jax_releases.html

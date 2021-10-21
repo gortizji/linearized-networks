@@ -1,0 +1,6 @@
+# @package _global_
+data:
+    dataset: "mnist"
+    normalize: True
+
+shape: [1, 28, 28, 1]

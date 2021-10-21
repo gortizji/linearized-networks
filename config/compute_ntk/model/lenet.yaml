@@ -1,0 +1,9 @@
+# @package _global_
+model:
+  model_name: "LeNet"
+  model_config:
+    num_classes: 1
+    activation: "ReLU"
+
+ntk:
+  batch_size: 500

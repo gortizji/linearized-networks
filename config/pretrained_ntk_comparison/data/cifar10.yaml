@@ -1,0 +1,8 @@
+# @package _global_
+data:
+    dataset: "cifar10"
+    normalize: True
+num_train: 50000
+num_test: 10000
+
+shape: [1, 32, 32, 3]
